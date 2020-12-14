@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Imagine Dragons - Discos</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/discos.css" />
+	<script type="text/javascript" src="js/discos.js"></script>
+	<link rel="icon"  href="img/fav.png"/>
+</head>
+<body>
+	<div id='titulo'>
+		<img src=img/imagine.png alt='logo' height="50" width="477">
+	</div>	
+	<div id='abas'>
+		<ul class='nav'>
+			<li class='itens'>
+				<div class='aba'>
+					<img src='img/home.png' alt='home' width="18.75px" height="18.75px">
+					<a href='index.html'>
+						Home
+					</a>
+				</div>
+			</li>
+			<li class='itens'>
+				<div class='aba'>
+					<img src='img/time.png' alt='clock' width="18.75px" height="18.75px">
+					<a href='historia.html'>
+						História
+					</a>
+				</div>
+			</li>
+			<li class='itens'>
+				<div class='aba'>
+					<img src='img/disc.png' alt='disco' width="18.75px" height="18.75px">
+					<a href='discos.html'>
+						Discos
+					</a>
+				</div>
+			</li>
+			<li class='itens'>
+				<div class='aba'>
+					<img src='img/trophy.png' alt='trophy' width="19.75px" height="24.25px">
+					<a href='premios.html'>
+						Prêmios
+					</a>
+				</div>
+			</li>
+			<li class='itens'>
+				<div class='aba'>
+					<img src='img/microphone.png' alt='microphone' width="18.75px" height="22.5px">
+					<a href='shows.html'>
+						Shows
+					</a>
+				</div>
+			</li>
+			<li class='itens'>
+				<div class='aba'>
+					<img src='img/quiz.png' alt='interrogation' width="18.75px" height="20.5px">
+					<a href='quiz.html'>
+						Quiz
+					</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+<!--===================================== INDIVIDUAL =============================================-->
+<img src='img/grupo.png' alt='group' class='main_img'>
+<div id='title'>Álbuns</div>
+<div id='albuns'>
+	<div class="container">
+	  <img src="img/origins.jpg" alt="Origins" class="image">
+	  <div class="overlay">
+	  	<audio id='natural' src='sounds/natural.mp3'></audio>
+	  	<img title='Reproduzir Preview' src='img/play.png' height="40px" width="40px" class='button' onclick="dar_play('natural')">
+	  	<img title='Pausar Preview' src='img/pause.png'height="40px" width="40px" class='button' onclick="pausar('natural')">
+	  	<a href='https://open.spotify.com/album/3JfSxDfmwS5OeHPwLSkrfr?si=me2tH24xScOGvEqsIaWikQ' target="_blank"><img title='Abrir álbum no Spotify' class='button' src='img/spotify.png' height="40px" width="40px"></a>
+	    <div class="text">
+	    	Origins<br/>
+	    	2018
+	    </div>
+	  </div>
+	</div>
+	<div class="container">
+	  <img src="img/evolve.jpg" alt="Evolve" class="image">
+	  <div class="overlay">
+	  	<audio id='believer' src='sounds/believer.mp3'></audio>
+	  	<img title='Reproduzir Preview' src='img/play.png' height="40px" width="40px" class='button' onclick="dar_play('believer')">
+	  	<img title='Pausar Preview' src='img/pause.png'height="40px" width="40px" class='button' onclick="pausar('believer')">
+	  	<a href='https://open.spotify.com/album/33pt9HBdGlAbRGBHQgsZsU?si=UCcYL9GrSjCejtYbytiebg' target="_blank"><img title='Abrir álbum no Spotify' class='button' src='img/spotify.png' height="40px" width="40px"></a>
+	    <div class="text">
+		    Evolve<br/>
+		    2017
+		</div>
+	  </div>
+	</div>
+	<div class="container">
+	  <img src="img/smoke.jpg" alt="Smoke + Mirrors" class="image">
+	  <div class="overlay">
+	  	<audio id='dream' src='sounds/dream.mp3'></audio>
+	  	<img title='Reproduzir Preview' src='img/play.png' height="40px" width="40px" class='button' onclick="dar_play('dream')">
+	  	<img title='Pausar Preview' src='img/pause.png'height="40px" width="40px" class='button' onclick="pausar('dream')">
+	  	<a href='https://open.spotify.com/album/0Ikw6ho559687KCPbSjr0K?si=ezE4zxphRjOBHMa1NXdcZw' target="_blank"><img title='Abrir álbum no Spotify' class='button' src='img/spotify.png' height="40px" width="40px"></a>
+	    <div class="text">
+	    	Smoke + Mirrors<br/>
+	    	2015
+	    </div>
+	  </div>
+	</div>
+	<div class="container">
+	  <img src="img/night.jpg" alt="Night Visions" class="image">
+	  <div class="overlay">
+	  	<audio id='its-time' src='sounds/its-time.mp3'></audio>
+	  	<img title='Reproduzir Preview' src='img/play.png' height="40px" width="40px" class='button' onclick="dar_play('its-time')">
+	  	<img title='Pausar Preview' src='img/pause.png'height="40px" width="40px" class='button' onclick="pausar('its-time')">
+	  	<a href='https://open.spotify.com/album/1zcNZa89FXNruaesVKiVeu?si=EJPtMRtuSWOlIEPdfvC0pw' target="_blank"><img title='Abrir álbum no Spotify' class='button' src='img/spotify.png' height="40px" width="40px"></a>
+	    <div class="text">
+	    	Night Visions<br/>
+	    	2012
+	    </div>
+	  </div>
+	</div>
+</div>

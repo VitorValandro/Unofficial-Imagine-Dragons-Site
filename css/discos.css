@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  background-image: radial-gradient(#eeeeee, #192124);
+}
+
+.main_img {
+  width: auto;
+  height: 100vh;
+  position: relative;
+  left: -5px;
+  transition: transform 1s;
+  overflow: hidden;
+}
+#title {
+  position: absolute;
+  top: 20%;
+  left: 67%;
+  font-size: 30px;
+  font-family:'Montserrat';
+  padding: 10px;
+  border-bottom: 2px solid #eee;
+  color:#eee;
+}
+
+#albuns {
+  position: absolute;
+  margin-top: 30px;
+  top: 30%;
+  left: 52.5%;
+}
+
+.container {
+  margin: 10px 20px 30px 10px;
+  position: relative;
+  float: left;
+  box-shadow: 6px 9px 20px 0px rgba(62,62,62,0.73);
+}
+
+.image {
+  display: block; 
+  height: 35vh;
+  width: 17.5vw;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#c99b00;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  align-items: center;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+  white-space: nowrap; 
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.main_img:hover {
+  transform: scale(1.1,1.1);
+}
+.button {
+  cursor: pointer;
+  position: relative;
+  top: 70%;
+  left: 30%;
+  transition: transform 1s;
+}
+.button:hover {
+  transform: scale(1.1);
+}

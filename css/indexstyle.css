@@ -1,0 +1,21 @@
+body {
+  background-image: radial-gradient(#eeeeee, #192124);
+}
+.timeline {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+}
+.timeline section {
+	display: flex;
+	float: left;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	background-color: green;
+	color:white;
+
+}
